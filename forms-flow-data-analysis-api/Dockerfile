@@ -1,5 +1,5 @@
 #Author: Kurian Benoy
-FROM python:3.8.5
+FROM python:3.12.0a3
 
 WORKDIR /forms-flow-data-analysis-api/app
 COPY requirements.txt .
