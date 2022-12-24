@@ -7,3 +7,4 @@ Werkzeug
 pymssql==2.2.4
 
 -e git+https://github.com/AOT-Technologies/forms-flow-ai.git@develop#egg=forms_flow_data_analysis_api&subdirectory=forms-flow-data-analysis-api
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
