@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:1.23
 RUN mkdir -p /etc/nginx/keycloak/certs
 RUN mkdir -p /etc/nginx/app/certs
 RUN mkdir -p /etc/nginx/analytics/certs
